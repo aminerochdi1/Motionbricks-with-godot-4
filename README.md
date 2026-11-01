@@ -7,6 +7,10 @@ walks, runs and jumps a 34-joint Unitree G1 skeleton around, planned live on the
 
 > Status: working proof of concept on macOS (Apple Silicon). Not tested on Windows or Linux.
 
+## Demo
+
+[Watch the demo video](docs/demo.mp4) (50 s: walking, running, jumping and turning, planned live on the CPU).
+
 ## What you get
 
 - **`MotionBricksG1`**, a GDExtension class: load the model, load styles, ask for the next chunk of motion.
@@ -217,4 +221,4 @@ bin/            built extension (not committed)
   repo and are downloaded from Hugging Face (`LocalAI-io/MotionBricks-G1-GGML`) by the script.
 - motion-bricks.cpp: see its own repository and license.
 - godot-cpp and Godot: MIT.
-- The code in this repository: add a license of your choice before publishing.
+- The code in this repository: **MIT** (see `LICENSE`). Anyone may fork, reuse, modify and improve it. The model weights and motion-bricks.cpp keep their own licenses.
