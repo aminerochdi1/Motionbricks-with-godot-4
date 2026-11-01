@@ -1,0 +1,22 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# macOS
+.DS_Store
+
+# Compiled extension (built locally with build-extension-mac.sh)
+bin/
+*.dylib
+*.so
+*.dll
+
+# Model weights and builds (large; weights are under the NVIDIA Open Model License)
+*.gguf
+*.mbstyle
+generated/
+build/
+
+# Cloned by scripts/build-motionbricks-mac.sh
+third_party/
+extension/godot-cpp/

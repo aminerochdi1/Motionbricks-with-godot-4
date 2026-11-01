@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bufb7d8k0su4a"]
+
+[ext_resource type="Script" uid="uid://bgxkdmn7sgkys" path="res://skeleton_view.gd" id="1"]
+
+[node name="SkeletonView" type="Node3D" unique_id=1722342888]
+script = ExtResource("1")
